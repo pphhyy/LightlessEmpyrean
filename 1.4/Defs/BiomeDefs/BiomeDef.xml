@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <BiomeDef>
+    <defName>pphhyy_LightlessEmpyrean_Biome</defName>
+    <label>lightless empyrean</label>
+    <description>DON'T FORGET TO CHANGE THE DESCRIPTION</description>
+    <workerClass>LightLess_Empyrean.BiomeWorker_LightlessEmpyrean</workerClass>
+    <allowFarmingCamps>false</allowFarmingCamps>
+    <animalDensity>2.8</animalDensity>
+    <plantDensity>0.8</plantDensity>
+    <settlementSelectionWeight>0.9</settlementSelectionWeight>
+    <movementDifficulty>1</movementDifficulty>
+    <forageability>0.75</forageability>
+    <foragedFood>RawBerries</foragedFood>
+    <wildPlantRegrowDays>25</wildPlantRegrowDays>
+    <texture>World/Biomes/pphhyyIsLazy</texture>
+    <soundsAmbient>
+      <li>Ambient_NightInsects_Standard</li>
+    </soundsAmbient>
+    <diseaseMtbDays>60</diseaseMtbDays>
+    <diseases>
+      <li>
+        <diseaseInc>Disease_Flu</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_Plague</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_GutWorms</diseaseInc>
+        <commonality>50</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_FibrousMechanites</diseaseInc>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_SensoryMechanites</diseaseInc>
+        <commonality>30</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_MuscleParasites</diseaseInc>
+        <commonality>50</commonality>
+      </li>
+
+      <li>
+        <diseaseInc>Disease_AnimalFlu</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_AnimalPlague</diseaseInc>
+        <commonality>100</commonality>
+      </li>
+    </diseases>
+    <terrainsByFertility>
+      <li>
+        <terrain>pphhyy_DarkSoil</terrain>
+        <min>-999</min>
+        <max>0.87</max>
+      </li>
+      <li>
+        <terrain>pphhyy_DarkSoilRich</terrain>
+        <min>0.87</min>
+        <max>999</max>
+      </li>
+    </terrainsByFertility>
+    <terrainPatchMakers>
+      <li>
+        <perlinFrequency>0.015</perlinFrequency>
+        <thresholds>
+          <li>
+            <terrain>pphhyy_DarkSoilRich</terrain>
+            <min>0.73</min>
+            <max>0.80</max>
+          </li>
+          <li>
+            <terrain>pphhyy_DarkMud</terrain>
+            <min>0.80</min>
+            <max>0.93</max>
+          </li>
+          <li>
+            <terrain>WaterShallow</terrain>
+            <min>0.93</min>
+            <max>1.06</max>
+          </li>
+          <li>
+            <terrain>WaterDeep</terrain>
+            <min>1.06</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li>
+    </terrainPatchMakers>
+    <baseWeatherCommonalities>
+      <Clear>2</Clear>
+      <Fog>1</Fog>
+      <Rain>18</Rain>
+      <DryThunderstorm>1</DryThunderstorm>
+      <RainyThunderstorm>1</RainyThunderstorm>
+      <FoggyRain>1</FoggyRain>
+      <SnowGentle>4</SnowGentle>
+      <SnowHard>4</SnowHard>
+      <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+    </baseWeatherCommonalities>
+    <wildPlants>
+      <pphhyy_LightlessEmpyrean_LightlessGrass>5.0</pphhyy_LightlessEmpyrean_LightlessGrass>
+      <pphhyy_LightlessEmpyrean_LightlessTree>0.5</pphhyy_LightlessEmpyrean_LightlessTree>
+      <pphhyy_LightlessEmpyrean_Bush>1.0</pphhyy_LightlessEmpyrean_Bush>
+      <pphhyy_LightlessEmpyrean_BulbBush>3.0</pphhyy_LightlessEmpyrean_BulbBush>
+      <pphhyy_LightlessEmpyrean_Brambles>2.0</pphhyy_LightlessEmpyrean_Brambles>
+      <Plant_Ripthorn MayRequire="Ludeon.RimWorld.Biotech">4</Plant_Ripthorn>
+      <pphhyy_LightlessEmpyrean_LightlessEmpyreanTree>0.01</pphhyy_LightlessEmpyrean_LightlessEmpyreanTree>
+      <pphhyy_LightlessEmpyrean_DeadTree>0.3</pphhyy_LightlessEmpyrean_DeadTree>
+      <pphhyy_LightlessEmpyrean_Dahlia>0.5</pphhyy_LightlessEmpyrean_Dahlia>
+      <pphhyy_LightlessEmpyrean_Lily>0.05</pphhyy_LightlessEmpyrean_Lily>
+      <pphhyy_LightlessEmpyrean_Lotus>0.05</pphhyy_LightlessEmpyrean_Lotus>
+      <pphhyy_LightlessEmpyrean_BerryBush>0.16</pphhyy_LightlessEmpyrean_BerryBush>
+      <Plant_HealrootWild>0.16</Plant_HealrootWild>
+      <Plant_TreeGrayPine MayRequire="Ludeon.RimWorld.Biotech">4</Plant_TreeGrayPine>
+      <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">9.0</Plant_GrayGrass>
+    </wildPlants>
+    <wildAnimals>
+      <GuineaPig>0.15</GuineaPig>
+      <Yak>0.04</Yak>
+      <Horse>0.20</Horse>
+      <Hare>1.0</Hare>
+      <Squirrel>1.0</Squirrel>
+      <Rat>1.0</Rat>
+      <Tortoise>0.6</Tortoise>
+      <Deer>0.5</Deer>
+      <WildBoar>0.5</WildBoar>
+      <Raccoon>0.5</Raccoon>
+      <Ibex>0.5</Ibex>
+      <Muffalo>0.5</Muffalo>
+      <Alpaca>0.5</Alpaca>
+      <Boomalope>0.4</Boomalope>
+      <Boomrat>0.4</Boomrat>
+      <pphhyy_LightlessEmpyrean_Sirius>0.4</pphhyy_LightlessEmpyrean_Sirius>
+      <pphhyy_LightlessEmpyrean_Scutes>0.4</pphhyy_LightlessEmpyrean_Scutes>
+      <pphhyy_LightlessEmpyrean_Gaster>0.07</pphhyy_LightlessEmpyrean_Gaster>
+      <pphhyy_LightlessEmpyrean_Lemures>0.2</pphhyy_LightlessEmpyrean_Lemures>
+      <pphhyy_LightlessEmpyrean_Shade>0.6</pphhyy_LightlessEmpyrean_Shade>
+    </wildAnimals>
+    <pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
+      <WasteRat MayRequire="Ludeon.RimWorld.Biotech">1</WasteRat>
+      <Rat>0.5</Rat>
+      <Raccoon>0.25</Raccoon>
+      <Warg>0.05</Warg>
+    </pollutionWildAnimals>
+    <allowedPackAnimals>
+      <li>Muffalo</li>
+    </allowedPackAnimals>
+  </BiomeDef>
+
+</Defs>

@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "VC+sLs4JyhKBWKSSSlS6fkLXzs7yJ4EUZxtOtaHRzGEWTaoK8DbuHQ3aqbxCnjEPHrurIQhI4HepJ8AAO+KdAQ==",
+  "success": true,
+  "projectFilePath": "/home/aludis/.steam/steam/steamapps/common/RimWorld/Mods/LightlessEmpyrean/LightLess_Empyrean/LightLess_Empyrean.csproj",
+  "expectedPackageFiles": [
+    "/home/aludis/.nuget/packages/krafs.rimworld.ref/1.5.4075-beta/krafs.rimworld.ref.1.5.4075-beta.nupkg.sha512",
+    "/home/aludis/.nuget/packages/lib.harmony/2.3.3/lib.harmony.2.3.3.nupkg.sha512",
+    "/home/aludis/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/aludis/.nuget/packages/system.text.json/8.0.1/system.text.json.8.0.1.nupkg.sha512",
+    "/home/aludis/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.4/microsoft.aspnetcore.app.ref.8.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Krafs.Rimworld.Ref 1.5.4075-beta' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Krafs.Rimworld.Ref",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

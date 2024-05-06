@@ -1,0 +1,6 @@
+/home/aludis/.local/share/Steam/steamapps/common/RimWorld/Mods/LightlessEmpyrean/LightLess_Empyrean/obj/Debug/net48/LightLess_Empyrean.csproj.AssemblyReference.cache
+/home/aludis/.local/share/Steam/steamapps/common/RimWorld/Mods/LightlessEmpyrean/LightLess_Empyrean/obj/Debug/net48/LightLess_Empyrean.GeneratedMSBuildEditorConfig.editorconfig
+/home/aludis/.local/share/Steam/steamapps/common/RimWorld/Mods/LightlessEmpyrean/LightLess_Empyrean/obj/Debug/net48/LightLess_Empyrean.AssemblyInfoInputs.cache
+/home/aludis/.local/share/Steam/steamapps/common/RimWorld/Mods/LightlessEmpyrean/LightLess_Empyrean/obj/Debug/net48/LightLess_Empyrean.AssemblyInfo.cs
+/home/aludis/.local/share/Steam/steamapps/common/RimWorld/Mods/LightlessEmpyrean/LightLess_Empyrean/obj/Debug/net48/LightLess_Empyrean.csproj.CoreCompileInputs.cache
+/home/aludis/.local/share/Steam/steamapps/common/RimWorld/Mods/LightlessEmpyrean/LightLess_Empyrean/obj/Debug/net48/LightLess_Empyrean.sourcelink.json

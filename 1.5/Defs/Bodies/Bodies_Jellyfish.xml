@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!--
+ ==========[pphhyy_LightlessEmpyrean_CnidarianShell]==========
+-->
+<BodyPartDef>
+    <defName>pphhyy_LightlessEmpyrean_CnidarianShell</defName>
+    <label>shell</label>
+    <hitPoints>50</hitPoints>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+    </BodyPartDef>
+    <!--
+     ==========[pphhyy_LightlessEmpyrean_CnidarianGastricCavity]==========
+    -->
+    <BodyPartDef>
+    <defName>pphhyy_LightlessEmpyrean_CnidarianGastricCavity</defName>
+    <label>gastric cavity</label>
+    <hitPoints>20</hitPoints>
+    <skinCovered>false</skinCovered>
+    <tags>
+    <li>MetabolismSource</li>
+    </tags>
+    </BodyPartDef>
+    <!--
+     ==========[pphhyy_LightlessEmpyrean_CnidarianUnderbelly]==========
+    -->
+    <BodyPartDef>
+    <defName>pphhyy_LightlessEmpyrean_CnidarianUnderbelly</defName>
+    <label>underbelly</label>
+    <hitPoints>20</hitPoints>
+    <tags>
+    <li>BreathingSource</li>
+    </tags>
+    </BodyPartDef>
+    <!--
+     ==========[pphhyy_LightlessEmpyrean_CnidarianSensoryOrgan]==========
+    -->
+    <BodyPartDef>
+    <defName>pphhyy_LightlessEmpyrean_CnidarianSensoryOrgan</defName>
+    <label>sensory organ</label>
+    <hitPoints>10</hitPoints>
+    <permanentInjuryChanceFactor>15</permanentInjuryChanceFactor>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <tags>
+    <li>SightSource</li>
+    </tags>
+    </BodyPartDef>
+    <!--
+     ==========[pphhyy_LightlessEmpyrean_CnidarianTentacle]==========
+    -->
+    <BodyPartDef>
+    <defName>pphhyy_LightlessEmpyrean_CnidarianTentacle</defName>
+    <label>tentacle</label>
+    <frostbiteVulnerability>10</frostbiteVulnerability>
+    <hitPoints>20</hitPoints>
+    <tags>
+    <li>ManipulationLimbCore</li>
+    </tags>
+    </BodyPartDef>
+    <!--
+     ==========[pphhyy_LightlessEmpyrean_CnidarianLevitationSac]==========
+    -->
+    <BodyPartDef>
+    <defName>pphhyy_LightlessEmpyrean_CnidarianLevitationSac</defName>
+    <label>levitation sac</label>
+    <hitPoints>20</hitPoints>
+    <delicate>true</delicate>
+    <skinCovered>false</skinCovered>
+    <tags>
+    <li>MovingLimbCore</li>
+    </tags>
+    </BodyPartDef>
+
+    <!--
+     ==========[pphhyy_LightlessEmpyrean_CnidarianBody]==========
+    -->
+
+    <BodyDef>
+        <defName>pphhyy_LightlessEmpyrean_CnidarianBody</defName>
+        <label>cnidarian like</label>
+        <corePart>
+            <def>Body</def>
+            <height>Middle</height>
+            <depth>Outside</depth>
+            <parts>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianUnderbelly</def>
+                    <coverage>0.06</coverage>
+                    <height>Bottom</height>
+                </li>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianGastricCavity</def>
+                    <coverage>0.03</coverage>
+                    <depth>Inside</depth>
+                </li>
+                <li>
+                    <def>Heart</def>
+                    <coverage>0.03</coverage>
+                    <depth>Inside</depth>
+                </li>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianLevitationSac</def>
+                    <customLabel>first levitation sac</customLabel>
+                    <coverage>0.03</coverage>
+                    <depth>Inside</depth>
+                </li>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianLevitationSac</def>
+                    <customLabel>second levitation sac</customLabel>
+                    <coverage>0.03</coverage>
+                    <depth>Inside</depth>
+                </li>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianLevitationSac</def>
+                    <customLabel>third levitation sac</customLabel>
+                    <coverage>0.03</coverage>
+                    <depth>Inside</depth>
+                </li>
+                <li>
+                    <def>Head</def>
+                    <coverage>0.12</coverage>
+                    <groups>
+                        <li>HeadAttackTool</li>
+                    </groups>
+                    <parts>
+                        <li>
+                            <def>Brain</def>
+                            <coverage>0.18</coverage>
+                            <depth>Inside</depth>
+                        </li>
+                        <li>
+                            <def>pphhyy_LightlessEmpyrean_CnidarianSensoryOrgan</def>
+                            <customLabel>left sensory organ</customLabel>
+                            <coverage>0.15</coverage>
+                            <depth>Inside</depth>
+                        </li>
+                        <li>
+                            <def>pphhyy_LightlessEmpyrean_CnidarianSensoryOrgan</def>
+                            <customLabel>right sensory organ</customLabel>
+                            <coverage>0.15</coverage>
+                            <depth>Inside</depth>
+                        </li>
+                        <li>
+                            <def>AnimalJaw</def>
+                            <coverage>0.20</coverage>
+                        </li>
+                    </parts>
+                </li>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianTentacle</def>
+                    <customLabel>front left tentacle</customLabel>
+                    <coverage>0.07</coverage>
+                    <height>Bottom</height>
+                    <groups>
+                        <li>pphhyy_LightlessEmpyrean_TentacleAttackTool</li>
+                    </groups>
+                </li>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianTentacle</def>
+                    <customLabel>front right tentacle</customLabel>
+                    <coverage>0.07</coverage>
+                    <height>Bottom</height>
+                    <groups>
+                        <li>pphhyy_LightlessEmpyrean_TentacleAttackTool</li>
+                    </groups>
+                </li>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianTentacle</def>
+                    <customLabel>rear left tentacle</customLabel>
+                    <coverage>0.07</coverage>
+                    <height>Bottom</height>
+                    <groups>
+                        <li>pphhyy_LightlessEmpyrean_TentacleAttackTool</li>
+                    </groups>
+                </li>
+                <li>
+                    <def>pphhyy_LightlessEmpyrean_CnidarianTentacle</def>
+                    <customLabel>rear right tentacle</customLabel>
+                    <coverage>0.07</coverage>
+                    <height>Bottom</height>
+                    <groups>
+                        <li>pphhyy_LightlessEmpyrean_TentacleAttackTool</li>
+                    </groups>
+                </li>
+            </parts>
+        </corePart>
+    </BodyDef>
+
+    <!-- ==========[pphhyy_LightlessEmpyrean_TentacleAttackTool]==========-->
+	<BodyPartGroupDef>
+		<defName>pphhyy_LightlessEmpyrean_TentacleAttackTool</defName>
+		<label>tentacle</label>
+	</BodyPartGroupDef>
+	<!-- ==========[pphhyy_LightlessEmpyrean_TailAttackTool]==========-->
+	<BodyPartGroupDef>
+		<defName>pphhyy_LightlessEmpyrean_TailAttackTool</defName>
+		<label>tail stinger</label>
+	</BodyPartGroupDef>
+	<!-- ==========[pphhyy_LightlessEmpyrean_LeftPedipalpAttackTool]==========-->
+	<BodyPartGroupDef>
+		<defName>pphhyy_LightlessEmpyrean_LeftPedipalpAttackTool</defName>
+		<label>left pedipalp</label>
+	</BodyPartGroupDef>
+	<!-- ==========[pphhyy_LightlessEmpyrean_RightPedipalpAttackTool]==========-->
+	<BodyPartGroupDef>
+		<defName>pphhyy_LightlessEmpyrean_RightPedipalpAttackTool</defName>
+		<label>right pedipalp</label>
+	</BodyPartGroupDef>
+
+</Defs>
