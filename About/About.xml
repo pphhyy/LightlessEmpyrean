@@ -22,6 +22,7 @@
 		<li>Ludeon.RimWorld.Ideology</li>
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>ludeon.rimworld.biotech</li>
+		<li>regrowth.botr.core</li>
 	</loadAfter>
 
 </ModMetaData>
