@@ -244,7 +244,7 @@
 
   <ThingDef ParentName="BushBase">
     <defName>pphhyy_LightlessEmpyrean_Bush</defName>
-    <label>lightless bulb bush</label>
+    <label>lightless bush</label>
     <description>DESCRIPTION</description>
     <statBases>
       <Beauty>2</Beauty>
