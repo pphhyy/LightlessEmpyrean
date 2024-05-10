@@ -122,6 +122,12 @@
       <Plant_GrayGrass MayRequire="Ludeon.RimWorld.Biotech">9.0</Plant_GrayGrass>
     </wildPlants>
     <wildAnimals>
+      <BotchJob_UndeadColossus MayRequire="BotchJob.Profaned">0.07</BotchJob_UndeadColossus>
+      <BotchJob_Ghoul MayRequire="BotchJob.Profaned">0.5</BotchJob_Ghoul>
+      <BotchJob_Wraith MayRequire="BotchJob.Profaned">0.6</BotchJob_Wraith>
+      <BotchJob_Skeleton MayRequire="BotchJob.Profaned">0.6</BotchJob_Skeleton>
+      <BotchJob_UndeadWarg MayRequire="BotchJob.Profaned">0.4</BotchJob_UndeadWarg>
+      <BotchJob_UndeadHorse MayRequire="BotchJob.Profaned">0.25</BotchJob_UndeadHorse>
       <GuineaPig>0.15</GuineaPig>
       <Yak>0.04</Yak>
       <Horse>0.20</Horse>
